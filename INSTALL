@@ -1,0 +1,6 @@
+How To Install Mazil :
+First of all install apache tomcat on your system .then copy the war file in bin folder and put it inside webapps folder of your apache tomcat directory and extract it there .
+To create database install mysql and Create an appropriately named database on the target machine .Load the file using the mysql command:
+$ mysql -u [uname] -p[pass] [db_to_restore] < [backupfile.sql]
+
+ Now start your tomcat server and type this address in your Browser  : "localhost:port/Feedback/jsp/" and your feedback-portal  is ready.Now you can host it by choosing a suitable url.
